@@ -15,7 +15,7 @@ spring:
       server:
         git:
           uri: https://github.com/ajayinva/spring-config-properties
-          searchPaths: anewservice
+          searchPaths: firstmicroservice
 ---
 spring:
   profiles: cloud
