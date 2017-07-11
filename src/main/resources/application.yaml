@@ -1,14 +1,6 @@
 server:
   port: 8888
 
-management:
-  context-path: /admin
-  
-logging:
-  level:
-    com.netflix.discovery: 'OFF'
-    org.springframework.cloud: 'DEBUG'
-    
 spring:
   cloud:
     config:
@@ -16,9 +8,6 @@ spring:
         git:
           uri: https://github.com/ajayinva/spring-config-properties
           searchPaths: firstmicroservice
----
-spring:
-  profiles: cloud
 
 
 
